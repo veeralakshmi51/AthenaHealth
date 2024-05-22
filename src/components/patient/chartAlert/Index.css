@@ -1,0 +1,26 @@
+
+.FormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ max-width: 70%;
+ margin-left: 15%;
+  }
+  
+  .FormGroup {
+    margin-bottom: 15px;
+  }
+  
+  .FormLabel {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .FormControl {
+    width: 100%;
+  }
+  
+  .SubmitButton {
+    margin-top: 15px;
+  }
+  

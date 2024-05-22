@@ -1,0 +1,15 @@
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .form-container {
+    border: 1px solid #ccc;
+    padding: 60px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+
+  }
+  

@@ -1,0 +1,121 @@
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #b98bea 0%, #8aabe4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 40px;
+  }
+  
+  .login-form {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .login-form h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .form-group {
+    margin-bottom: 0.5rem;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, #b98bea 0%, #4a85ea 100%);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .signup-form {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  .signup-form span {
+    color: rgb(88, 88, 184); 
+    cursor: pointer;
+  }

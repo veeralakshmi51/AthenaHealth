@@ -1,0 +1,13 @@
+.list{
+  
+    color: white;
+}
+.toolbar{
+    background-color: white;
+    color:blue;
+    text-align: center;
+}
+.button{
+    text-align: right;
+    margin-left: 70%;
+}
